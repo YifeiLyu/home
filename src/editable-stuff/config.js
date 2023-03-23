@@ -6,30 +6,22 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Yifei",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Lyu",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/YifeiLyu",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/lyuyifei1999/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/yifeilyu-berkeley/",
     },
   ],
 };
@@ -51,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/Yifei_Lyu_OPT.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am currently a first-year master of engineering student from UC Berkeley with a concentration in Electrical Engineering and Computer Sciences. After appreciating the beauty of engineering (and my childhood love of Transformers), I quit my original Clinical Medicine major in my freshman year and received my bachelor's degree in robotics engineering from Southeast University in 2022. My engineering fields lie in robotic vision and learning, and I have completed various software projects based on mobile robots like NEXT, Turtlebot and EAI, through C++ and Python in diverse software environments such as ROS, Gazebo, and Webots. I was also a research assistant at the Chinese University of Hong Kong and researched multi-robot SLAM. In industry, I used to work as a computer vision engineer in the direction of human key point detection at a Chinese technology start-up. Due to the universal perception technology and the high similarity of robot systems and self-driving technology, I am now interested in software development in autonomous driving and its computer vision applications.",
+  resume: "https://drive.google.com/file/d/1-3g8HKTX5lzQzzMXgV44wsc8qJqVBBha/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,7 +58,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "YifeiLyu", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -101,13 +93,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
+    { name: "ROS", value: 85 },
+    { name: "Gazebo", value: 65 },
     { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Webots", value: 80 },
+    { name: "PyTorch", value: 75 },
+    { name: "OpenCV", value: 65 },
+    { name: "NumPy & Pandas", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +118,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Robotics Software Engineering or Machine Learning / Autonomous Driving opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "yifei_lyu@berkeley.edu",
 };
 
 const experiences = {
