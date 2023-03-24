@@ -46,9 +46,10 @@ const about = {
   imageLink: require("../editable-stuff/Yifei_Lyu_OPT.jpg"),
   imageSize: 375,
   message:
-    "I am currently a first-year master of engineering student from UC Berkeley with a concentration in Electrical Engineering and Computer Sciences. After appreciating the beauty of engineering (and my childhood love of Transformers), I quit my original Clinical Medicine major in my freshman year and received my bachelor's degree in robotics engineering from Southeast University in 2022. My engineering fields lie in robotic vision and learning, and I have completed various software projects based on mobile robots like NEXT, Turtlebot and EAI, through C++ and Python in diverse software environments such as ROS, Gazebo, and Webots. I was also a research assistant at the Chinese University of Hong Kong and researched multi-robot SLAM. In industry, I used to work as a computer vision engineer in the direction of human key point detection at a Chinese technology start-up. Due to the universal perception technology and the high similarity of robot systems and self-driving technology, I am now interested in software development in autonomous driving and its computer vision applications.",
+    "I am currently a master of engineering student from UC Berkeley with a concentration in Electrical Engineering and Computer Sciences. After appreciating the beauty of engineering (and my childhood love of Transformers), I quit my original Clinical Medicine major in my freshman year and received my bachelor's degree in robotics engineering from Southeast University in 2022. My engineering fields lie in robotic vision and learning, and I have completed various software projects based on mobile robots like NEXT, Turtlebot and EAI, through C++ and Python in diverse software environments such as ROS, Gazebo, and Webots. I was also a research assistant at the Chinese University of Hong Kong and researched multi-robot SLAM. In industry, I used to work as a computer vision engineer in the direction of human key point detection at a Chinese technology start-up. Due to the universal perception technology and the high similarity of robot systems and self-driving technology, I am now interested in software development in autonomous driving and its computer vision applications.",
   resume: "https://drive.google.com/file/d/1-3g8HKTX5lzQzzMXgV44wsc8qJqVBBha/view?usp=sharing",
 };
+
 
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
@@ -62,6 +63,24 @@ const repos = {
   reposLength: 4,
   specificRepos: [],
 };
+
+const education = {
+  show: false,
+  heading: "Education",
+  lists: [
+    {
+      university: "Southeast University",
+      degree: "Bachelor of Engineering - BE, Robotics",
+      time: "2018 - 2022",
+      description:" - GPA: 3.88/4.0, Average Score: 91/100, Ranking: 2/37\n- President’s Scholarship (Top 1%)\n- Member of OneCo Lab (Prof. Wankou Yang)."
+    },
+    {
+      university: "University of California, Berkeley",
+      degree: "Master of Engineering - MEng, Electrical Engineering & Computer Sciences",
+      time: "2022 - 2023",
+      description:"- Fung Institute's Scholarship\n- Member of Barsky Lab (Prof. Brian A. Barsky)"
+    }]
+  };
 
 // Leadership SECTION
 const leadership = {
@@ -123,18 +142,22 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Education",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      name: 'Southeast University',
+      role1: 'Bachelor of Engineering',// Here Add Company Name
+      role2: 'Robotics',
+      companylogo: require('../assets/img/southeast.jpeg'),
+      date: '2018 - 2022',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      name: 'University of California, Berkeley',
+      role1: 'Master of Engineering',
+      role2: 'Electrical Engineering & Computer Sciences',
+      companylogo: require('../assets/img/berkeley.jpeg'),
+      date: '2022 - 2023',
     },
   ]
 }
@@ -144,4 +167,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, education, repos, skills, leadership, getInTouch, experiences };
